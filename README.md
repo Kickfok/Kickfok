@@ -9,8 +9,8 @@
 чтобы данные не уходили из сети, а права пользователя соблюдались. Пишу и на C#, когда задаче нужно
 настольное приложение.
 
-<a href="https://github.com/Kickfok?tab=followers"><img height="24" src="https://img.shields.io/github/followers/Kickfok?style=flat-square&logo=github&label=подписчики&color=24292f" alt="подписчики"/></a>
-<img height="24" src="https://komarev.com/ghpvc/?username=Kickfok&style=flat-square&label=просмотры&color=555555" alt="просмотры профиля"/>
+<a href="https://github.com/Kickfok?tab=followers"><img height="24" src="https://img.shields.io/github/followers/Kickfok?style=flat-square&logo=github&label=%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%87%D0%B8%D0%BA%D0%B8&color=24292f" alt="подписчики"/></a>
+<img height="24" src="https://komarev.com/ghpvc/?username=Kickfok&style=flat-square&label=%D0%BF%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D1%8B&color=555555" alt="просмотры профиля"/>
 
 ## 📌 Проекты
 
