@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
   <title id="t">Kickfok</title>
-  <desc id="d">Kickfok, разработчик 1С: доработки на БСП для ERP, Комплексной автоматизации и Документооборота, интеграции, локальные LLM и MCP для баз 1С, настольные приложения на C#.</desc>
+  <desc id="d">Kickfok, программист 1С: доработки БП, ЗУП, УТ, КА, ERP, Розницы и Документооборота, интеграции по REST и SOAP, 1С и нейросети (Yandex GPT, Ollama, MCP), ведение проектов.</desc>
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.045"/></pattern>
     <radialGradient id="gy" cx="8%" cy="0%" r="60%"><stop offset="0" stop-color="#FFC21A" stop-opacity="0.2"/><stop offset="1" stop-color="#FFC21A" stop-opacity="0"/></radialGradient>
@@ -29,20 +29,20 @@
   <text x="48" y="56" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#FFC21A" letter-spacing="2.5">ПРИВЕТ, Я KICKFOK</text>
   <path d="M232 51 H700" stroke="#262B4E" stroke-width="1.5"/>
   <text x="48" y="116" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="48" fill="#E9ECF8" font-weight="800">Разработчик 1С<tspan fill="#8B7CFF">.</tspan></text>
-  <text x="48" y="166" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="34" fill="#E9ECF8" font-weight="700">Доработки, интеграции и <tspan fill="#FFC21A">локальные LLM</tspan>.</text>
+  <text x="48" y="166" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="34" fill="#E9ECF8" font-weight="700">Доработки, интеграции и <tspan fill="#FFC21A">нейросети в 1С</tspan>.</text>
   <rect x="48" y="196" width="640" height="46" rx="10" fill="#141831" stroke="#262B4E" stroke-width="1.5"/>
   <text x="68" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#6B7199" font-weight="700">$</text>
-  <text x="88" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#FFC21A" opacity="1">доработки на БСП: ERP, КА, Документооборот<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.240;0.250;0.99;1" dur="12.8s" repeatCount="indefinite"/></text>
-  <text x="88" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#6CCFF6" opacity="0">интеграции 1С: HTTP-сервисы, обмены, отчеты<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.250;0.260;0.490;0.500;1" dur="12.8s" repeatCount="indefinite"/></text>
-  <text x="88" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#8B7CFF" opacity="0">локальные LLM и MCP для баз 1С<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.500;0.510;0.740;0.750;1" dur="12.8s" repeatCount="indefinite"/></text>
-  <text x="88" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#5EE0A0" opacity="0">настольные приложения на C# и .NET<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.750;0.760;0.990;1.000;1" dur="12.8s" repeatCount="indefinite"/></text>
+  <text x="88" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#FFC21A" opacity="1">БП, ЗУП, УТ, КА, ERP, Розница, Документооборот<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.240;0.250;0.99;1" dur="12.8s" repeatCount="indefinite"/></text>
+  <text x="88" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#6CCFF6" opacity="0">интеграции: REST, SOAP, маркетплейсы, ЭДО<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.250;0.260;0.490;0.500;1" dur="12.8s" repeatCount="indefinite"/></text>
+  <text x="88" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#8B7CFF" opacity="0">1С и нейросети: Yandex GPT, Ollama, MCP<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.500;0.510;0.740;0.750;1" dur="12.8s" repeatCount="indefinite"/></text>
+  <text x="88" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#5EE0A0" opacity="0">ТЗ, команда, сроки: веду проекты 1С<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.750;0.760;0.990;1.000;1" dur="12.8s" repeatCount="indefinite"/></text>
   <rect x="48" y="264" width="258" height="34" rx="17" fill="#FFC21A" fill-opacity="0.1" stroke="#FFC21A" stroke-opacity="0.5"/>
   <circle cx="66" cy="281" r="4" fill="#FFC21A"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="0.0s" repeatCount="indefinite"/></circle>
-  <text x="80" y="286" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" fill="#FFC21A" font-weight="600">1С:Предприятие · БСП · BSL</text>
-  <rect x="318.4" y="264" width="216" height="34" rx="17" fill="#8B7CFF" fill-opacity="0.1" stroke="#8B7CFF" stroke-opacity="0.5"/>
-  <circle cx="336.4" cy="281" r="4" fill="#8B7CFF"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></circle>
-  <text x="350.4" y="286" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" fill="#8B7CFF" font-weight="600">Python · Ollama · MCP</text>
-  <rect x="546.8" y="264" width="225" height="34" rx="17" fill="#6CCFF6" fill-opacity="0.1" stroke="#6CCFF6" stroke-opacity="0.5"/>
-  <circle cx="564.8" cy="281" r="4" fill="#6CCFF6"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="1.6s" repeatCount="indefinite"/></circle>
-  <text x="578.8" y="286" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" fill="#6CCFF6" font-weight="600">C# · .NET · SQL Server</text>
+  <text x="80" y="286" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" fill="#FFC21A" font-weight="600">1С:Предприятие · БСП · СКД</text>
+  <rect x="318.4" y="264" width="317" height="34" rx="17" fill="#6CCFF6" fill-opacity="0.1" stroke="#6CCFF6" stroke-opacity="0.5"/>
+  <circle cx="336.4" cy="281" r="4" fill="#6CCFF6"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  <text x="350.4" y="286" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" fill="#6CCFF6" font-weight="600">REST · SOAP · MS SQL · PostgreSQL</text>
+  <rect x="647.5999999999999" y="264" width="216" height="34" rx="17" fill="#8B7CFF" fill-opacity="0.1" stroke="#8B7CFF" stroke-opacity="0.5"/>
+  <circle cx="665.5999999999999" cy="281" r="4" fill="#8B7CFF"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="1.6s" repeatCount="indefinite"/></circle>
+  <text x="679.5999999999999" y="286" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" fill="#8B7CFF" font-weight="600">Python · Ollama · MCP</text>
   </svg>

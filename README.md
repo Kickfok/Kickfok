@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Kickfok, разработчик 1С: доработки на БСП для ERP, Комплексной автоматизации и Документооборота, интеграции, локальные LLM и MCP для баз 1С, настольные приложения на C#.">
+  <img src="assets/header.svg" width="100%" alt="Kickfok, программист 1С: доработки БП, ЗУП, УТ, КА, ERP, Розницы и Документооборота, интеграции по REST и SOAP, 1С и нейросети, ведение проектов.">
 </p>
 
 # Привет, я Kickfok
 
-Разрабатываю на 1С: ERP, Комплексная автоматизация, Документооборот. Здесь лежат мои открытые проекты.
+Программист 1С, в разработке больше трех лет. Работал в компании-интеграторе, где вел проекты и команду из
+четырех разработчиков, и в IT-отделе розничной сети. Здесь лежат мои открытые проекты.
 
 ## 📌 Проекты
 
@@ -15,31 +16,36 @@
 
 ## Чем занимаюсь
 
-В основном пишу доработки на БСП: отчеты на СКД, формы, обработки. Если задачу можно закрыть расширением,
-типовую конфигурацию не трогаю, тогда ее потом спокойно обновляют.
+Дорабатываю и сопровождаю типовые и самописные конфигурации: Бухгалтерию, ЗУП, УТ (в том числе 10.3 на
+обычных формах), КА, ERP, Розницу, Документооборот, TMS:Lite. Пишу расширения, обработки, печатные формы
+и отчеты на СКД, дорабатываю РМК, настраиваю права под роли. Обновляю типовые с доработками: разбираю, что
+изменилось, объединяю и возвращаю свое.
 
-Много времени уходит на интеграции: ERP с Документооборотом, обмены, HTTP-сервисы.
+Много интеграций. 1С с маркетплейсами, логистическими и банковскими сервисами, ЭДО (СБИС, Диадок), сайтами:
+REST, SOAP, JSON, XML, вебхуки, COM. В рознице первым в компании связал 1С с Yandex GPT, YandexART и
+Telegram: уведомления для сотрудников и генерация контента.
 
-Последнее время подключаю к базам 1С локальные модели. Так появился
-[1C MCP Ollama Bridge](https://github.com/Kickfok/1c-mcp-ollama): базу спрашивают обычным языком, модель
-работает на своей видеокарте, а данные 1С отдает с правами того, кто спросил. Иногда пишу на C#, например
-[CarService](https://github.com/Kickfok/CarService).
+В свободное время делаю [1C MCP Ollama Bridge](https://github.com/Kickfok/1c-mcp-ollama): базу 1С
+спрашивают обычным языком, модель работает в Ollama, данные 1С отдает с правами того, кто спросил.
+[CarService](https://github.com/Kickfok/CarService) - учебное приложение на C#.
 
 ## Как работаю
 
-Перед сдачей прогоняю код через SonarQube и проверяю на копии рабочей базы: на пустой базе половина ошибок
-не видна. Инструкции и снимки экрана делаю сразу, пока помню, как все устроено.
+До кода - ТЗ: собираю требования, рисую схему процесса, согласую с заказчиком. В интеграторе вел проекты
+в Битрикс24: делил задачи между разработчиками, смотрел код, следил за сроками. Инструкции для
+пользователей и администраторов пишу сам. Код держу в хранилище конфигураций и Git, работаю и в
+Конфигураторе, и в EDT.
 
 ## Стек
 
-![1C](https://img.shields.io/badge/1С:Предприятие-8.3-FFC21A?style=flat-square)
-![BSL](https://img.shields.io/badge/BSL-БСП%203.1-FFC21A?style=flat-square)
+![1C](https://img.shields.io/badge/1С:Предприятие-8.x-FFC21A?style=flat-square)
+![BSL](https://img.shields.io/badge/БСП-СКД-FFC21A?style=flat-square)
 ![EDT](https://img.shields.io/badge/1C:EDT-Конфигуратор-FFC21A?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-LLM-1B1F3B?style=flat-square&logo=ollama&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-6E56CF?style=flat-square)
-![C#](https://img.shields.io/badge/C%23-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-Entity%20Framework-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![SonarQube](https://img.shields.io/badge/SonarQube-BSL-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-GitHub%20Actions-F05032?style=flat-square&logo=git&logoColor=white)
+![MS SQL](https://img.shields.io/badge/MS%20SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![REST](https://img.shields.io/badge/REST%20·%20SOAP-JSON%20·%20XML-6CCFF6?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-MCP-1B1F3B?style=flat-square&logo=ollama&logoColor=white)
+![Git](https://img.shields.io/badge/Git-GitLab-F05032?style=flat-square&logo=git&logoColor=white)
+![Bitrix24](https://img.shields.io/badge/Битрикс24-проекты-2FC6F6?style=flat-square)
+![Apache](https://img.shields.io/badge/Apache%20·%20IIS-публикация%201С-D22128?style=flat-square&logo=apache&logoColor=white)

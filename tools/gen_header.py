@@ -15,12 +15,12 @@ BG, CARD, LINE = "#0B0E1C", "#141831", "#262B4E"
 TEXT, DIM, MUTED = "#E9ECF8", "#9AA1C9", "#6B7199"
 YELLOW, VIOLET, GREEN, CYAN = "#FFC21A", "#8B7CFF", "#5EE0A0", "#6CCFF6"
 LINES = [
-    ("доработки на БСП: ERP, КА, Документооборот", YELLOW),
-    ("интеграции 1С: HTTP-сервисы, обмены, отчеты", CYAN),
-    ("локальные LLM и MCP для баз 1С", VIOLET),
-    ("настольные приложения на C# и .NET", GREEN),
+    ("БП, ЗУП, УТ, КА, ERP, Розница, Документооборот", YELLOW),
+    ("интеграции: REST, SOAP, маркетплейсы, ЭДО", CYAN),
+    ("1С и нейросети: Yandex GPT, Ollama, MCP", VIOLET),
+    ("ТЗ, команда, сроки: веду проекты 1С", GREEN),
 ]
-CHIPS = [("1С:Предприятие · БСП · BSL", YELLOW), ("Python · Ollama · MCP", VIOLET), ("C# · .NET · SQL Server", CYAN)]
+CHIPS = [("1С:Предприятие · БСП · СКД", YELLOW), ("REST · SOAP · MS SQL · PostgreSQL", CYAN), ("Python · Ollama · MCP", VIOLET)]
 # Логотип 1C MCP Ollama Bridge на сетке 32 x 32, центр знака (16, 16)
 LOGO = """
   <rect width="32" height="32" rx="7" fill="#FFC21A"/>
@@ -47,7 +47,7 @@ def main():
     period = 3.2 * len(LINES)
     p = [f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">
   <title id="t">Kickfok</title>
-  <desc id="d">Kickfok, разработчик 1С: доработки на БСП для ERP, Комплексной автоматизации и Документооборота, интеграции, локальные LLM и MCP для баз 1С, настольные приложения на C#.</desc>
+  <desc id="d">Kickfok, программист 1С: доработки БП, ЗУП, УТ, КА, ERP, Розницы и Документооборота, интеграции по REST и SOAP, 1С и нейросети (Yandex GPT, Ollama, MCP), ведение проектов.</desc>
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.045"/></pattern>
     <radialGradient id="gy" cx="8%" cy="0%" r="60%"><stop offset="0" stop-color="{YELLOW}" stop-opacity="0.2"/><stop offset="1" stop-color="{YELLOW}" stop-opacity="0"/></radialGradient>
@@ -70,7 +70,7 @@ def main():
     p.append(text(48, 56, "ПРИВЕТ, Я KICKFOK", 13, YELLOW, family=MONO, extra=' letter-spacing="2.5"'))
     p.append(f'<path d="M232 51 H700" stroke="{LINE}" stroke-width="1.5"/>')
     p.append(text(48, 116, f'Разработчик 1С<tspan fill="{VIOLET}">.</tspan>', 48, TEXT, 800))
-    p.append(text(48, 166, f'Доработки, интеграции и <tspan fill="{YELLOW}">локальные LLM</tspan>.', 34, TEXT, 700))
+    p.append(text(48, 166, f'Доработки, интеграции и <tspan fill="{YELLOW}">нейросети в 1С</tspan>.', 34, TEXT, 700))
 
     p.append(f'<rect x="48" y="196" width="640" height="46" rx="10" fill="{CARD}" stroke="{LINE}" stroke-width="1.5"/>')
     p.append(text(68, 226, "$", 17, MUTED, 700, MONO))
