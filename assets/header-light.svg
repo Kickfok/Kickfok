@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+  <title id="t">Kickfok</title>
+  <desc id="d">Kickfok, разработчик 1С: доработки на БСП для ERP, Комплексной автоматизации и Документооборота, интеграции, локальные LLM и MCP для баз 1С, настольные приложения на C#.</desc>
+  <defs>
+    <linearGradient id="speed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF6A13" stop-opacity="0"/><stop offset="1" stop-color="#FF6A13"/>
+    </linearGradient>
+  </defs>
+  <rect x="-300" y="96" width="260" height="5" rx="2.5" fill="url(#speed)" opacity="0.45"><animate attributeName="x" values="-300;600" dur="2.6s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.45;0.45;0" keyTimes="0;0.15;0.8;1" dur="2.6s" begin="0.0s" repeatCount="indefinite"/></rect>
+  <rect x="-300" y="128" width="180" height="5" rx="2.5" fill="url(#speed)" opacity="0.45"><animate attributeName="x" values="-300;680" dur="2.1s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.45;0.45;0" keyTimes="0;0.15;0.8;1" dur="2.1s" begin="0.5s" repeatCount="indefinite"/></rect>
+  <rect x="-300" y="210" width="220" height="5" rx="2.5" fill="url(#speed)" opacity="0.45"><animate attributeName="x" values="-300;640" dur="2.9s" begin="1.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.45;0.45;0" keyTimes="0;0.15;0.8;1" dur="2.9s" begin="1.0s" repeatCount="indefinite"/></rect>
+  <rect x="-300" y="242" width="150" height="5" rx="2.5" fill="url(#speed)" opacity="0.45"><animate attributeName="x" values="-300;710" dur="2.3s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.45;0.45;0" keyTimes="0;0.15;0.8;1" dur="2.3s" begin="1.5s" repeatCount="indefinite"/></rect>
+  <circle cx="1030" cy="170" r="150" fill="none" stroke="#E5231B" stroke-width="10" stroke-opacity="0.4"/>
+  <circle cx="1030" cy="170" r="126" fill="none" stroke="#FFC000" stroke-width="8" stroke-opacity="0.4"/>
+  <circle cx="1030" cy="170" r="103" fill="none" stroke="#E5231B" stroke-width="6" stroke-opacity="0.4"/>
+  <circle cx="1030" cy="170" r="150" fill="none" stroke="#FF6A13" stroke-width="10" stroke-dasharray="70 872" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0 1030 170" to="360 1030 170" dur="6s" repeatCount="indefinite"/></circle>
+  <svg x="964.0" y="104.0" width="132" height="132" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#FFC21A"/>
+  <g transform="translate(-0.7 0.6)">
+    <g fill="none" stroke="#1B1F3B" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="10" cy="10" rx="4.5" ry="1.8"/>
+      <path d="M5.5 10 V20 C5.5 21 7.5 21.8 10 21.8 C12.5 21.8 14.5 21 14.5 20 V10"/>
+      <path d="M5.5 15 C5.5 16 7.5 16.8 10 16.8 C12.5 16.8 14.5 16 14.5 15"/>
+      <path d="M14.5 15 H19.5"/>
+      <path d="M22 15 L26 9 M22 15 L27 15 M22 15 L26 21"/>
+    </g>
+    <g fill="#1B1F3B"><circle cx="22" cy="15" r="2.5"/><circle cx="26.3" cy="8.6" r="1.4"/><circle cx="27.4" cy="15" r="1.4"/><circle cx="26.3" cy="21.4" r="1.4"/></g>
+    <circle r="0.9" fill="#FFFFFF"><animateMotion dur="1.6s" repeatCount="indefinite" path="M14.5 15 H21"/></circle>
+  </g></svg>
+  <text x="24" y="50" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#E5231B" font-weight="700" letter-spacing="2.5">ПРИВЕТ, Я KICKFOK</text>
+  <text x="24" y="110" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="48" fill="#1F2328" font-weight="800">Разработчик 1С<tspan fill="#FF6A13">.</tspan></text>
+  <text x="24" y="164" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="38" fill="#1F2328" font-weight="800">Доработки, интеграции и <tspan fill="#E5231B">локальные LLM</tspan>.</text>
+  <path d="M24 178 H468 L460 188 H16 Z" fill="#FF6A13"/>
+  <rect x="24" y="208" width="640" height="46" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"/>
+  <text x="44" y="238" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#59636E" font-weight="700">$</text>
+  <text x="64" y="238" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#E5231B" opacity="1">доработки на БСП: ERP, КА, Документооборот<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.240;0.250;0.99;1" dur="12.8s" repeatCount="indefinite"/></text>
+  <text x="64" y="238" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#FF6A13" opacity="0">интеграции 1С: HTTP-сервисы, обмены, отчеты<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.250;0.260;0.490;0.500;1" dur="12.8s" repeatCount="indefinite"/></text>
+  <text x="64" y="238" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#1F2328" opacity="0">локальные LLM и MCP для баз 1С<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.500;0.510;0.740;0.750;1" dur="12.8s" repeatCount="indefinite"/></text>
+  <text x="64" y="238" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#E5231B" opacity="0">настольные приложения на C# и .NET<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.750;0.760;0.990;1.000;1" dur="12.8s" repeatCount="indefinite"/></text>
+  <rect x="24" y="274" width="258" height="34" rx="17" fill="#E5231B" fill-opacity="0.1" stroke="#E5231B" stroke-opacity="0.6"/>
+  <circle cx="42" cy="291" r="4" fill="#E5231B"/>
+  <text x="56" y="296" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" fill="#E5231B" font-weight="700">1С:Предприятие · БСП · BSL</text>
+  <rect x="294.4" y="274" width="216" height="34" rx="17" fill="#FF6A13" fill-opacity="0.1" stroke="#FF6A13" stroke-opacity="0.6"/>
+  <circle cx="312.4" cy="291" r="4" fill="#FF6A13"/>
+  <text x="326.4" y="296" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" fill="#FF6A13" font-weight="700">Python · Ollama · MCP</text>
+  <rect x="522.8" y="274" width="225" height="34" rx="17" fill="#1F2328" fill-opacity="0.1" stroke="#1F2328" stroke-opacity="0.6"/>
+  <circle cx="540.8" cy="291" r="4" fill="#1F2328"/>
+  <text x="554.8" y="296" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" fill="#1F2328" font-weight="700">C# · .NET · SQL Server</text>
+  </svg>
