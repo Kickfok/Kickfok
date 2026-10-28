@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+  <title id="t">Kickfok</title>
+  <desc id="d">Kickfok, разработчик 1С: доработки на БСП для ERP, Комплексной автоматизации и Документооборота, интеграции, локальные LLM и MCP для баз 1С, настольные приложения на C#.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.045"/></pattern>
+    <radialGradient id="gy" cx="8%" cy="0%" r="60%"><stop offset="0" stop-color="#FFC21A" stop-opacity="0.2"/><stop offset="1" stop-color="#FFC21A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gv" cx="86%" cy="50%" r="35%"><stop offset="0" stop-color="#8B7CFF" stop-opacity="0.28"/><stop offset="1" stop-color="#8B7CFF" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="340" rx="18" fill="#0B0E1C"/>
+  <rect width="1200" height="340" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#gy)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#gv)"/>
+  <circle cx="1030" cy="170" r="112" fill="none" stroke="#262B4E" stroke-width="1.5"/>
+  <circle cx="1030" cy="170" r="112" fill="none" stroke="#FFC21A" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="4 10"><animateTransform attributeName="transform" type="rotate" from="0 1030 170" to="360 1030 170" dur="40s" repeatCount="indefinite"/></circle>
+  <circle r="5" fill="#8B7CFF"><animateMotion dur="9s" repeatCount="indefinite" path="M1030 58 a112 112 0 1 1 -0.1 0"/></circle>
+  <svg x="966.0" y="106.0" width="128" height="128" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#FFC21A"/>
+  <g transform="translate(-0.7 0.6)">
+    <g fill="none" stroke="#1B1F3B" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="10" cy="10" rx="4.5" ry="1.8"/>
+      <path d="M5.5 10 V20 C5.5 21 7.5 21.8 10 21.8 C12.5 21.8 14.5 21 14.5 20 V10"/>
+      <path d="M5.5 15 C5.5 16 7.5 16.8 10 16.8 C12.5 16.8 14.5 16 14.5 15"/>
+      <path d="M14.5 15 H19.5"/>
+      <path d="M22 15 L26 9 M22 15 L27 15 M22 15 L26 21"/>
+    </g>
+    <g fill="#1B1F3B"><circle cx="22" cy="15" r="2.5"/><circle cx="26.3" cy="8.6" r="1.4"/><circle cx="27.4" cy="15" r="1.4"/><circle cx="26.3" cy="21.4" r="1.4"/></g>
+    <circle r="0.9" fill="#FFFFFF"><animateMotion dur="1.6s" repeatCount="indefinite" path="M14.5 15 H21"/></circle>
+  </g></svg>
+  <text x="48" y="56" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#FFC21A" letter-spacing="2.5">ПРИВЕТ, Я KICKFOK</text>
+  <path d="M232 51 H700" stroke="#262B4E" stroke-width="1.5"/>
+  <text x="48" y="116" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="48" fill="#E9ECF8" font-weight="800">Разработчик 1С<tspan fill="#8B7CFF">.</tspan></text>
+  <text x="48" y="166" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="34" fill="#E9ECF8" font-weight="700">Доработки, интеграции и <tspan fill="#FFC21A">локальные LLM</tspan>.</text>
+  <rect x="48" y="196" width="640" height="46" rx="10" fill="#141831" stroke="#262B4E" stroke-width="1.5"/>
+  <text x="68" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#6B7199" font-weight="700">$</text>
+  <text x="88" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#FFC21A" opacity="1">доработки на БСП: ERP, КА, Документооборот<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.240;0.250;0.99;1" dur="12.8s" repeatCount="indefinite"/></text>
+  <text x="88" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#6CCFF6" opacity="0">интеграции 1С: HTTP-сервисы, обмены, отчеты<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.250;0.260;0.490;0.500;1" dur="12.8s" repeatCount="indefinite"/></text>
+  <text x="88" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#8B7CFF" opacity="0">локальные LLM и MCP для баз 1С<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.500;0.510;0.740;0.750;1" dur="12.8s" repeatCount="indefinite"/></text>
+  <text x="88" y="226" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="600" fill="#5EE0A0" opacity="0">настольные приложения на C# и .NET<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.750;0.760;0.990;1.000;1" dur="12.8s" repeatCount="indefinite"/></text>
+  <rect x="48" y="264" width="258" height="34" rx="17" fill="#FFC21A" fill-opacity="0.1" stroke="#FFC21A" stroke-opacity="0.5"/>
+  <circle cx="66" cy="281" r="4" fill="#FFC21A"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="0.0s" repeatCount="indefinite"/></circle>
+  <text x="80" y="286" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" fill="#FFC21A" font-weight="600">1С:Предприятие · БСП · BSL</text>
+  <rect x="318.4" y="264" width="216" height="34" rx="17" fill="#8B7CFF" fill-opacity="0.1" stroke="#8B7CFF" stroke-opacity="0.5"/>
+  <circle cx="336.4" cy="281" r="4" fill="#8B7CFF"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  <text x="350.4" y="286" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" fill="#8B7CFF" font-weight="600">Python · Ollama · MCP</text>
+  <rect x="546.8" y="264" width="225" height="34" rx="17" fill="#6CCFF6" fill-opacity="0.1" stroke="#6CCFF6" stroke-opacity="0.5"/>
+  <circle cx="564.8" cy="281" r="4" fill="#6CCFF6"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="1.6s" repeatCount="indefinite"/></circle>
+  <text x="578.8" y="286" font-family="Inter, 'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" fill="#6CCFF6" font-weight="600">C# · .NET · SQL Server</text>
+  </svg>

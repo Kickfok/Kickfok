@@ -1,6 +1,6 @@
 """Карточки проектов для профиля: одинаковый размер, название, описание в три строки, бейджи стека внизу на одной
 высоте. Картинки, а не таблица Markdown: у таблицы высота строк зависит от длины текста, и карточки расходятся.
-Фон прозрачный, две версии под темную и светлую тему GitHub.
+Карточка со своим темным фоном в палитре 1C MCP Ollama Bridge, одинаково смотрится в обеих темах GitHub.
 
     python tools/gen_cards.py
 """
@@ -11,10 +11,8 @@ ASSETS = pathlib.Path(__file__).resolve().parent.parent / "assets"
 SANS = "Inter, 'Segoe UI', Arial, Helvetica, sans-serif"
 W, H = 560, 180
 THEMES = {
-    "dark": {"text": "#C9D1D9", "muted": "#8B949E", "line": "#30363D", "red": "#FF4D42", "violet": "#A78BFA",
-             "blue": "#58A6FF", "green": "#3FB950", "sql": "#FF7B72"},
-    "light": {"text": "#1F2328", "muted": "#59636E", "line": "#D0D7DE", "red": "#E5231B", "violet": "#6A4FD8",
-              "blue": "#0969DA", "green": "#1A7F37", "sql": "#C2410C"},
+    "dark": {"text": "#C9CEE8", "muted": "#9AA1C9", "line": "#262B4E", "bg": "#141831", "red": "#FFC21A",
+             "violet": "#8B7CFF", "blue": "#6CCFF6", "green": "#5EE0A0", "sql": "#F28CB1"},
 }
 ORANGE = "#FF6A13"
 
@@ -23,7 +21,7 @@ CARDS = [
      ["Вопросы к базе 1С обычным языком: MCP-сервер", "в расширении 1С и локальная модель в Ollama.",
       "Данные читает 1С с правами пользователя."],
      [("1С:Предприятие", "red"), ("BSL", "red"), ("Python", "blue"), ("MCP", "violet")]),
-    ("CarService", "orange",
+    ("CarService", "blue",
      ["Настольное приложение для каталога услуг", "автосервиса: роли, поиск и фильтры,",
       "добавление и редактирование услуг."],
      [("C#", "violet"), ("WPF", "blue"), ("Entity Framework", "green"), ("SQL Server", "sql")]),
@@ -34,7 +32,7 @@ def card(theme, name, accent, lines, tags):
     c = dict(THEMES[theme], orange=ORANGE)
     color = c[accent]
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{escape(name)}: {escape(" ".join(lines))}">',
-           f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="12" fill="none" stroke="{c["line"]}" stroke-width="1.5"/>',
+           f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="12" fill="{c["bg"]}" stroke="{c["line"]}" stroke-width="1.5"/>',
            f'<rect x="1" y="20" width="4" height="{H - 40}" rx="2" fill="{color}"/>',
            f'<path d="M26 26 h9 l3 3 v13 h-12 z" fill="none" stroke="{c["muted"]}" stroke-width="1.6" stroke-linejoin="round"/>',
            f'<text x="48" y="41" font-family="{SANS}" font-size="20" font-weight="800" fill="{color}">{escape(name)}</text>']
@@ -56,6 +54,6 @@ def card(theme, name, accent, lines, tags):
 
 for theme in THEMES:
     for name, accent, lines, tags in CARDS:
-        file = ASSETS / f"card-{name.lower()}-{theme}.svg"
+        file = ASSETS / f"card-{name.lower()}.svg"
         file.write_text(card(theme, name, accent, lines, tags), encoding="utf-8", newline="\n")
         print(file.name)

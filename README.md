@@ -1,7 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Kickfok, разработчик 1С: доработки на БСП для ERP, Комплексной автоматизации и Документооборота, интеграции, локальные LLM и MCP для баз 1С, настольные приложения на C#.">
-</picture>
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Kickfok, разработчик 1С: доработки на БСП для ERP, Комплексной автоматизации и Документооборота, интеграции, локальные LLM и MCP для баз 1С, настольные приложения на C#.">
+</p>
 
 # Привет, я Kickfok
 
@@ -10,14 +9,8 @@
 ## 📌 Проекты
 
 <p>
-  <a href="https://github.com/Kickfok/1c-mcp-ollama"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-1c-mcp-ollama-dark.svg">
-    <img src="assets/card-1c-mcp-ollama-light.svg" width="49%" alt="1c-mcp-ollama: вопросы к базе 1С обычным языком, MCP-сервер в расширении 1С и локальная модель в Ollama">
-  </picture></a>
-  <a href="https://github.com/Kickfok/CarService"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-carservice-dark.svg">
-    <img src="assets/card-carservice-light.svg" width="49%" alt="CarService: настольное приложение для каталога услуг автосервиса">
-  </picture></a>
+  <a href="https://github.com/Kickfok/1c-mcp-ollama"><img src="assets/card-1c-mcp-ollama.svg" width="49%" alt="1c-mcp-ollama: вопросы к базе 1С обычным языком, MCP-сервер в расширении 1С и локальная модель в Ollama"></a>
+  <a href="https://github.com/Kickfok/CarService"><img src="assets/card-carservice.svg" width="49%" alt="CarService: настольное приложение для каталога услуг автосервиса"></a>
 </p>
 
 ## Чем занимаюсь
